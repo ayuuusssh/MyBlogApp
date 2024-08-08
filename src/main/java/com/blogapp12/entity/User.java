@@ -17,6 +17,8 @@ public class User {
     private String name;
     private String username;
     private String password;
+    private long number;
+    private String acbcd;
     private String email;
 
     @ManyToMany
