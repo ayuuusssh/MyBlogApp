@@ -3,6 +3,7 @@ package com.blogapp12.entity;
 import lombok.Data;
 
 import javax.persistence.*;
+import java.math.BigDecimal;
 import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.List;
@@ -18,6 +19,7 @@ public class User {
     private String username;
     private String password;
     private String email;
+    private BigDecimal acbc;
 
     @ManyToMany
     @JoinTable(name="user_roles",
